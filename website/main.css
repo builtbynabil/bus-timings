@@ -42,3 +42,13 @@ button{
     border: 1px solid gray;
     padding: 10px;
 }
+
+.footer .container h6 {
+    font-size: 10px;
+}
+
+a{
+    color: cyan;
+    text-decoration: underline;
+}
+
