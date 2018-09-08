@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600');
+
+body{
+    padding: 30px 0;
+    background: black;
+    color: cyan;
+    font-family: 'IBM Plex Mono',
+    monospace;
+}
+.oneBusService{
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid cyan;
+    text-align: center;
+}
+
+.busService h1,p {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
+}
+
+.busStopCodeP {
+    font-size: 15px;
+}
+
+input{
+    color: gray;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button{
+    color: black;
+    background-color: aqua;
+    border: 1px solid gray;
+    padding: 10px;
+}
