@@ -9,56 +9,66 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    
+
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
 <body>
 
+    <div class="emptyError">
+        <p><span class="errorText"></span></p>
+    </div>
+
     <div class="header">
+
+        <div class="mainBody">
+            <div class="container">
+                <h1>Bus Services
+                </h1>
+
+                <br>
+
+                <input type="text" class="busStopCodeInput" placeholder="Insert Bus Stop Code">
+
+                <br>
+                <br>
+
+                <button class="submitButton">Get Timings!</button>
+
+                <br>
+                <br>
+
+                <!-- <button class="refreshButton">Refresh Timings</button> -->
+
+                <br>
+                <br>
+
+                <p class="busStopCodeP"> Bus Stop Code: <span class="busStopCode"></span></p>
+
+                <br>
+            </div>
+
+        </div>
+
         <div class="container">
-            <h1>Bus Services
-            </h1>
+            <div class="busService">
 
-            <br>
-            
-            <input type="text" class="busStopCodeInput" placeholder="Insert Bus Stop Code">
 
-            <br>
-            <br>
-            
-            <button class="submitButton">Get Timings!</button>
-            
-            <br>
-            <br>
 
-            <!-- <button class="refreshButton">Refresh Timings</button> -->
-            
-            <br>
-            <br>
-                        
-            <p class="busStopCodeP"> Bus Stop Code: <span class="busStopCode"></span></p>
-            
-            <br>
+            </div>
         </div>
-        
+
+        <br>
+
+        <div class="footer">
+            <div class="container">
+                <h6>made by <a href="http://github.com/builtbynabil">builtbynabil</a></h6>
+                <h6>this project is open source!</h6>
+            </div>
+        </div>
+
     </div>
 
-    <div class="container">
-        <div class="busService">
-        
-        
-        
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="container">
-            <h6>made by <a href="http://github.com/builtbynabil">builtbynabil</a></h6>
-            <h6>this project is open source!</h6>
-        </div>
-    </div>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
